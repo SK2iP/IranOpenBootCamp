@@ -2,7 +2,20 @@
 
 Installation
 ========
-In the case of Ubuntu 22.04, execute the following commands for installing all needed repositories to run rcssserver and soccerwindow2
+In the case of Ubuntu 22.04, execute the following commands for installing all needed repositories and to run rcssserver and soccerwindow2
+First download the file and then open terminal on that directory then extract it using :
+```
+unzip IranOpenBootCamp-main.zip
+```
+after unziping open directory using :
+```
+cd IranOpenBootCamp-main
+```
+change installation file permission by using:
+```
+chmod 777 installation.sh 
+```
+then run installaion command to install rcssserver and soccerwindow2:
 ```
 ./installation.sh
 ```
