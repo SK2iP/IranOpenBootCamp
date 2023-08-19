@@ -29,5 +29,7 @@ mkdir build
 cd build 
 cmake .. 
 make -j8
+cd ..
+echo "include /usr/local/lib" | sudo tee -a /etc/ld.so.conf
 sudo make install
 sudo ldconfig
